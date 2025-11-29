@@ -16,8 +16,6 @@ export const intersector = (footprint, extent) => {
 
 export const insideChecker = (ll, poly) => {
     const pt = point(ll);
-    console.log(poly)
     const pol = polygon(poly[0].coordinates);
-    // console.log(pol)
     return booleanPointInPolygon(pt, pol);
   };

@@ -222,13 +222,6 @@
     map.removeLayer(annotationDrawerLayer);
   }
 
-  // function cancelAnnotation() {
-  //   map.addInteraction(annotationDrawer);
-  //   mapState.annotationEntry = false;
-  //   annotationDrawerGeometrySource.clear();
-  //   console.log("cleared")
-  // }
-
   function loadAnnotations() {
     loadedAnnotationsList = [];
     getAnnotationsWithinExtent(view.calculateExtent()).then((d) => {

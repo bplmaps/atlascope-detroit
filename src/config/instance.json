@@ -28,7 +28,7 @@
         "text": "Leave a note for users who just open the splash page... perhaps inviting them to sponsor an atlas?"
     },
     "researchControls": {
-        "annotations": true,
+        "annotations": false,
         "connectors": false
     },
     "tours": false,
